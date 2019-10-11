@@ -1,0 +1,32 @@
+#BlueJ class context
+comment0.params=grid2
+comment0.target=Tetrad(MyBoundedGrid)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Tetrad\n\ @param\ grid2\ the\ grid\n
+comment1.params=grid2\ dfs
+comment1.target=Tetrad(MyBoundedGrid,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Tetrad\n\ @param\ grid2\ the\ grid\n\ @param\ dfs\ int\ \n
+comment2.params=grid2\ locs
+comment2.target=void\ addToLocation(MyBoundedGrid,\ Location[])
+comment2.text=\n\ This\ adds\ the\ tetrad\ to\ the\ locations\n\ @precondition\ blocks\ are\ not\ in\ any\ grid,\ locs.length\ \=\ 4\n\ @postcondition\ the\ locations\ of\ blocks\ match\ locs,\ and\ blocks\ have\ been\n\ \ \ \ \ \ \ \ \ \ put\ in\ the\ grid\n\ @param\ grid2\ the\ grid\n\ @param\ locs\ the\ location\ of\ the\ blocks\n
+comment3.params=
+comment3.target=Location[]\ removeBlocks()
+comment3.text=\n\ Removes\ the\ tetrads\n\ @precondition\ Block\ are\ in\ the\ grid\n\ @postcondition\ Returns\ old\ locations\ of\ block\ ;\ blocks\ have\ been\ removed\ from\ grid\n\ @return\ array\ of\ Locations\ that\ have\ been\ removed\ from\ the\ grid\n
+comment4.params=
+comment4.target=boolean\ isGameOver()
+comment4.text=\n\ Checks\ if\ the\ game\ is\ Over\n\ @return\ true\ if\ it\ is;\ otherwise\ false\n
+comment5.params=grid2\ locs
+comment5.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment5.text=\n\ Returns\ true\ if\ the\ locations\ are\ empty\n\ @return\ true\ if\ the\ locations\ are\ empty,\ otherwise\ false\n\ @param\ grid2\ the\ grid\ being\ worked\ on\n\ @param\ locs\ an\ array\ of\ locations\n
+comment6.params=
+comment6.target=void\ moveToMiddle()
+comment6.text=\n\ This\ moves\ the\ block\ to\ the\ middle\n
+comment7.params=deltaRow\ deltaCol
+comment7.target=boolean\ translate(int,\ int)
+comment7.text=\n\ Attempts\ to\ move\ the\ block\ down\ and\ to\ the\ right\n\ @param\ deltaRow\ how\ far\ dow\ it\ moves\n\ @param\ deltaCol\ how\ far\ to\ the\ right\ it\ moves\n\ @postcondition\ attempts\ to\ move\ the\ tetrad\ deltaRow\ down\ \n\ \ \ \ \ \ \ \ \ \ and\ deltaCol\ the\ right\n\ @return\ true\ if\ the\ move\ is\ successfull;\ otherwise\ false\n
+comment8.params=
+comment8.target=boolean\ rotate()
+comment8.text=\n\ Attemps\ to\ rotate\ the\ block\ 90\ degrees\ clockwise\ about\ its\ center\n\ @postcondtion\ the\ tetrad\ is\ rotated\ 90\ if\ the\ areas\ are\ empty\n\ @return\ true\ if\ it\ can\ rotate;\ otherwise\ false\n
+comment9.params=
+comment9.target=boolean\ rotateLeft()
+comment9.text=\n\ Attemps\ to\ rotate\ the\ block\ 90\ degrees\ counterclockwise\ about\ its\ center\n\ @postcondtion\ the\ tetrad\ is\ rotated\ 90\ if\ the\ areas\ are\ empty\n\ @return\ true\ if\ it\ can\ rotate;\ otherwise\ false\n
+numComments=10

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ upPressed()
+comment0.text=\n\ Called\ when\ up\ is\ pressed\n
+comment1.params=
+comment1.target=void\ downPressed()
+comment1.text=\n\ Called\ when\ down\ is\ pressed\n
+comment2.params=
+comment2.target=void\ leftPressed()
+comment2.text=\n\ Called\ when\ left\ is\ pressed\n
+comment3.params=
+comment3.target=void\ rightPressed()
+comment3.text=\n\ Called\ when\ right\ is\ pressed\n
+comment4.params=
+comment4.target=void\ spacePressed()
+comment4.text=\n\ Called\ when\ space\ is\ pressed\n
+comment5.params=
+comment5.target=void\ zPressed()
+comment5.text=\n\ Called\ when\ z\ is\ pressed\n
+comment6.params=
+comment6.target=boolean\ isGameOn()
+comment6.text=\n\ Called\ checking\ if\ game\ is\ over\n\ @return\ true\ if\ game\ is\ over;\ otherwise\ false\n
+numComments=7
